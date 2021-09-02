@@ -1,6 +1,6 @@
 # Guess-Number
 
-A simple game where you guess the number and if the guessed number is correct then you rewarded with a meme.😁
+A simple game where you guess the number and if the guessed number is correct then you get rewarded with a meme.😁
 
 Play Game Here :- 
 
