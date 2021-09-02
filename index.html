@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Guess the Number!</title>
+</head>
+<body id="victory">
+    <header>
+        <h1>Guess the Number!</h1>
+        <p class="between">Between (1 to 100) </p>
+        <button class="btn again">Again!</button>
+        <div class="number" id="secret">?</div>
+    </header>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <iframe 
+                src="https://giphy.com/embed/D6WuLOKOpR2fK" 
+                width="480" 
+                height="360" 
+                frameBorder="0" 
+                class="giphy-embed" 
+                allowFullScreen
+            >
+            </iframe>
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <main>
+        <div class="modal-button" id="show-reward">
+            <button class="reward-button" id="reward">REWARD!</button>
+        </div>
+        <section class="left">
+            <input type="number" class="guess" min="1" max="100" />
+            <button class="check" id="replay">Check!</button>
+        </section>
+
+        <section class="right">
+            <div class="displayMessage">
+                <p class="message">Start guessing......</p>
+                <div class="hotter-colder">
+                    <p class="hotter-message">Hotter 🔥</p>
+                    <p class="colder-message">Colder ❄️</p>
+                </div>
+            </div>    
+            <p class="label-score">💯 Score: <span class="score">25</span></p>
+            <p class="label-highscore">
+                🥇 HighScore: <span class="highscore">0</span>
+            </p>
+        </section>
+    </main>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
