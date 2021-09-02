@@ -2,7 +2,7 @@
 
 A simple game where you guess the number and if the guessed number is correct then you get rewarded with a meme.😁
 
-Play Game Here :- 
+Play Game Here :- https://meme-guess-number.netlify.app/
 
 # Rule to get meme reward😉.
 
